@@ -2,13 +2,13 @@
 
 
 var lista = [];
-var = numero;
+// var num = 0;
 
 
 for (var i = 0; i < 6; i++) {
-  numero = parseInt(prompt('mi dai un numero?'));
-  if (numero % 2 !== 0) {
-    lista.push(numero);
+   var num = parseInt(prompt('mi dai un numero?'));
+  if (num % 2 !== 0) {
+    lista.push(num);
  }
 }
  console.log(lista);

@@ -3,7 +3,7 @@
 var number = prompt ('scegli un numero di 4 cifre');
 var somma = 0
 
-if (number.length > 4  && number.length < 4 ) {
+if (number.length > 4  || number.length < 4 ) {
   alert ('il numero non è di 4 cifre')
 } else {
   for (var i = 0; i < number.length; i++) {
