@@ -4,8 +4,8 @@ var somma = 0
 
 
 for (var i = 0; i <= 10; i++) {
-  somma += i
+ somma += i
 }
 console.log(somma);
 
-console.log(somma / 2);
+console.log(somma / 10);
